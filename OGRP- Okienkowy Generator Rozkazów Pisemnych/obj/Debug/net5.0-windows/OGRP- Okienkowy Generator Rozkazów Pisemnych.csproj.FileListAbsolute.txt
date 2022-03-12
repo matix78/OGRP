@@ -1,0 +1,18 @@
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\bin\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.exe
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\bin\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.deps.json
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\bin\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.runtimeconfig.json
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\bin\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\bin\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.dll
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\bin\Debug\net5.0-windows\ref\OGRP- Okienkowy Generator Rozkazów Pisemnych.dll
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\bin\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.pdb
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\obj\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\obj\Debug\net5.0-windows\OGRP__Okienkowy_Generator_Rozkazów_Pisemnych.Form1.resources
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\obj\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\obj\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\obj\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\obj\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\obj\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\obj\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.dll
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\obj\Debug\net5.0-windows\ref\OGRP- Okienkowy Generator Rozkazów Pisemnych.dll
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\obj\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.pdb
+C:\Users\Admin\Desktop\Projekty\OGRP- Okienkowy Generator Rozkazów Pisemnych\OGRP- Okienkowy Generator Rozkazów Pisemnych\obj\Debug\net5.0-windows\OGRP- Okienkowy Generator Rozkazów Pisemnych.genruntimeconfig.cache

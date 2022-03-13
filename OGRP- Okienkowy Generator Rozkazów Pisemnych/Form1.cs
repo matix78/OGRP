@@ -13,6 +13,7 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
     public partial class Form1 : Form
     {
         public string wybór;
+        public static DateTime Today { get; }
         public Form1()
         {
             InitializeComponent();
@@ -28,6 +29,8 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             string Wynik = "";
             string WybórRozkazu = wybór;
 
+            DateTime thisDate = DateTime.Today;
+
             if (NumerPociąguTxt.TextLength <= 0)
             {
                 WynikTxt.Clear();
@@ -37,7 +40,7 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             WynikTxt.Clear();
 
 
-            Wynik = "Rozkaz pisemny " + WybórRozkazu + " nr " + NumerRozkazuTxt.Text + " dla pociągu " + NumerPociąguTxt.Text;
+            Wynik = "Rozkaz pisemny " + WybórRozkazu + " nr " + NumerRozkazuTxt.Text + " dla pociągu " + NumerPociąguTxt.Text + " dnia " + thisDate.ToString("dd.MM.yyyy" + "r.");
             WynikTxt.AppendText(Wynik);
 
 

@@ -51,9 +51,29 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             Wynik_txt(sender, e);
         }
 
+        private void Numer_Pociągu_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Numer_Rozkazu_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
         private void Rozkaz_SClick(object sender, EventArgs e)
         {
             wybór = "S";
+            Działka1Txt.Text = "Zezwalam po otrzymaniu sygnału nakaz jazdy/tylko tego rozkazu pisemnego przyjechać obok wskazującego sygnał stój semafora wyjazdowego(uzupełnij).";
+            Działka2Txt.Text = "Pominięcie sygnału Stój przy wjeździe/na semaforze odstępowym/wjazd z toru zamkniętego bez semafora.";
+            Działka3Txt.Text = "Unieważnienie SBL";
+            Działka4Txt.Text = "Inne";
             Wynik_txt(sender, e);
         }
 

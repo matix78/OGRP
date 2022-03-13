@@ -40,16 +40,20 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             this.Działki = new System.Windows.Forms.Label();
             this.Działka1Lb = new System.Windows.Forms.CheckBox();
             this.Działka1Txt = new System.Windows.Forms.TextBox();
-            this.Działka2Txt = new System.Windows.Forms.TextBox();
             this.Działka2Lb = new System.Windows.Forms.CheckBox();
-            this.Działka3Txt = new System.Windows.Forms.TextBox();
             this.Działka3Lb = new System.Windows.Forms.CheckBox();
-            this.Działka4Txt = new System.Windows.Forms.TextBox();
             this.Działka4Lb = new System.Windows.Forms.CheckBox();
             this.RozkazS = new System.Windows.Forms.RadioButton();
             this.RozkazO = new System.Windows.Forms.RadioButton();
             this.RozkazN = new System.Windows.Forms.RadioButton();
             this.NumerRozkazuTxt = new System.Windows.Forms.TextBox();
+            this.Działka2Txt = new System.Windows.Forms.TextBox();
+            this.Działka3Txt = new System.Windows.Forms.TextBox();
+            this.Działka4Txt = new System.Windows.Forms.TextBox();
+            this.Konfiguruj_działka1 = new System.Windows.Forms.Button();
+            this.Konfiguruj_działka2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // NumerPociągu
@@ -71,6 +75,7 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             this.NumerPociąguTxt.Size = new System.Drawing.Size(52, 22);
             this.NumerPociąguTxt.TabIndex = 1;
             this.NumerPociąguTxt.TextChanged += new System.EventHandler(this.Numer_Pociągu_txt);
+            this.NumerPociąguTxt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numer_Pociągu_KeyPress);
             // 
             // label1
             // 
@@ -145,7 +150,7 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             // Działka1Lb
             // 
             this.Działka1Lb.AutoSize = true;
-            this.Działka1Lb.Location = new System.Drawing.Point(170, 165);
+            this.Działka1Lb.Location = new System.Drawing.Point(170, 170);
             this.Działka1Lb.Name = "Działka1Lb";
             this.Działka1Lb.Size = new System.Drawing.Size(72, 19);
             this.Działka1Lb.TabIndex = 12;
@@ -155,67 +160,38 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             // Działka1Txt
             // 
             this.Działka1Txt.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Działka1Txt.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Działka1Txt.Location = new System.Drawing.Point(170, 192);
             this.Działka1Txt.Multiline = true;
             this.Działka1Txt.Name = "Działka1Txt";
             this.Działka1Txt.ReadOnly = true;
-            this.Działka1Txt.Size = new System.Drawing.Size(281, 52);
+            this.Działka1Txt.Size = new System.Drawing.Size(281, 55);
             this.Działka1Txt.TabIndex = 13;
-            // 
-            // Działka2Txt
-            // 
-            this.Działka2Txt.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Działka2Txt.Location = new System.Drawing.Point(170, 278);
-            this.Działka2Txt.Multiline = true;
-            this.Działka2Txt.Name = "Działka2Txt";
-            this.Działka2Txt.ReadOnly = true;
-            this.Działka2Txt.Size = new System.Drawing.Size(281, 52);
-            this.Działka2Txt.TabIndex = 15;
             // 
             // Działka2Lb
             // 
             this.Działka2Lb.AutoSize = true;
-            this.Działka2Lb.Location = new System.Drawing.Point(170, 253);
+            this.Działka2Lb.Location = new System.Drawing.Point(170, 258);
             this.Działka2Lb.Name = "Działka2Lb";
             this.Działka2Lb.Size = new System.Drawing.Size(72, 19);
             this.Działka2Lb.TabIndex = 14;
             this.Działka2Lb.Text = "Działka:2";
             this.Działka2Lb.UseVisualStyleBackColor = true;
             // 
-            // Działka3Txt
-            // 
-            this.Działka3Txt.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Działka3Txt.Location = new System.Drawing.Point(170, 362);
-            this.Działka3Txt.Multiline = true;
-            this.Działka3Txt.Name = "Działka3Txt";
-            this.Działka3Txt.ReadOnly = true;
-            this.Działka3Txt.Size = new System.Drawing.Size(281, 52);
-            this.Działka3Txt.TabIndex = 17;
-            // 
             // Działka3Lb
             // 
             this.Działka3Lb.AutoSize = true;
-            this.Działka3Lb.Location = new System.Drawing.Point(170, 339);
+            this.Działka3Lb.Location = new System.Drawing.Point(170, 344);
             this.Działka3Lb.Name = "Działka3Lb";
             this.Działka3Lb.Size = new System.Drawing.Size(72, 19);
             this.Działka3Lb.TabIndex = 16;
             this.Działka3Lb.Text = "Działka:3";
             this.Działka3Lb.UseVisualStyleBackColor = true;
             // 
-            // Działka4Txt
-            // 
-            this.Działka4Txt.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Działka4Txt.Location = new System.Drawing.Point(170, 446);
-            this.Działka4Txt.Multiline = true;
-            this.Działka4Txt.Name = "Działka4Txt";
-            this.Działka4Txt.ReadOnly = true;
-            this.Działka4Txt.Size = new System.Drawing.Size(281, 52);
-            this.Działka4Txt.TabIndex = 19;
-            // 
             // Działka4Lb
             // 
             this.Działka4Lb.AutoSize = true;
-            this.Działka4Lb.Location = new System.Drawing.Point(170, 420);
+            this.Działka4Lb.Location = new System.Drawing.Point(170, 425);
             this.Działka4Lb.Name = "Działka4Lb";
             this.Działka4Lb.Size = new System.Drawing.Size(72, 19);
             this.Działka4Lb.TabIndex = 18;
@@ -270,6 +246,88 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             this.NumerRozkazuTxt.Size = new System.Drawing.Size(52, 22);
             this.NumerRozkazuTxt.TabIndex = 26;
             this.NumerRozkazuTxt.TextChanged += new System.EventHandler(this.Numer_Rozkazu_txt);
+            this.NumerRozkazuTxt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numer_Rozkazu_KeyPress);
+            // 
+            // Działka2Txt
+            // 
+            this.Działka2Txt.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Działka2Txt.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.Działka2Txt.Location = new System.Drawing.Point(170, 278);
+            this.Działka2Txt.Multiline = true;
+            this.Działka2Txt.Name = "Działka2Txt";
+            this.Działka2Txt.ReadOnly = true;
+            this.Działka2Txt.Size = new System.Drawing.Size(281, 55);
+            this.Działka2Txt.TabIndex = 27;
+            // 
+            // Działka3Txt
+            // 
+            this.Działka3Txt.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Działka3Txt.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.Działka3Txt.Location = new System.Drawing.Point(170, 362);
+            this.Działka3Txt.Multiline = true;
+            this.Działka3Txt.Name = "Działka3Txt";
+            this.Działka3Txt.ReadOnly = true;
+            this.Działka3Txt.Size = new System.Drawing.Size(281, 52);
+            this.Działka3Txt.TabIndex = 28;
+            // 
+            // Działka4Txt
+            // 
+            this.Działka4Txt.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Działka4Txt.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.Działka4Txt.Location = new System.Drawing.Point(170, 445);
+            this.Działka4Txt.Multiline = true;
+            this.Działka4Txt.Name = "Działka4Txt";
+            this.Działka4Txt.ReadOnly = true;
+            this.Działka4Txt.Size = new System.Drawing.Size(281, 53);
+            this.Działka4Txt.TabIndex = 29;
+            // 
+            // Konfiguruj_działka1
+            // 
+            this.Konfiguruj_działka1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Konfiguruj_działka1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Konfiguruj_działka1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Konfiguruj_działka1.Location = new System.Drawing.Point(324, 165);
+            this.Konfiguruj_działka1.Name = "Konfiguruj_działka1";
+            this.Konfiguruj_działka1.Size = new System.Drawing.Size(127, 24);
+            this.Konfiguruj_działka1.TabIndex = 30;
+            this.Konfiguruj_działka1.Text = "Konfiguruj";
+            this.Konfiguruj_działka1.UseVisualStyleBackColor = false;
+            // 
+            // Konfiguruj_działka2
+            // 
+            this.Konfiguruj_działka2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Konfiguruj_działka2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Konfiguruj_działka2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Konfiguruj_działka2.Location = new System.Drawing.Point(324, 253);
+            this.Konfiguruj_działka2.Name = "Konfiguruj_działka2";
+            this.Konfiguruj_działka2.Size = new System.Drawing.Size(127, 24);
+            this.Konfiguruj_działka2.TabIndex = 31;
+            this.Konfiguruj_działka2.Text = "Konfiguruj";
+            this.Konfiguruj_działka2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(324, 339);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(127, 24);
+            this.button1.TabIndex = 32;
+            this.button1.Text = "Konfiguruj";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.Location = new System.Drawing.Point(324, 420);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(127, 24);
+            this.button2.TabIndex = 33;
+            this.button2.Text = "Konfiguruj";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -277,15 +335,19 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ClientSize = new System.Drawing.Size(812, 525);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Konfiguruj_działka2);
+            this.Controls.Add(this.Konfiguruj_działka1);
+            this.Controls.Add(this.Działka4Txt);
+            this.Controls.Add(this.Działka3Txt);
+            this.Controls.Add(this.Działka2Txt);
             this.Controls.Add(this.NumerRozkazuTxt);
             this.Controls.Add(this.RozkazN);
             this.Controls.Add(this.RozkazO);
             this.Controls.Add(this.RozkazS);
-            this.Controls.Add(this.Działka4Txt);
             this.Controls.Add(this.Działka4Lb);
-            this.Controls.Add(this.Działka3Txt);
             this.Controls.Add(this.Działka3Lb);
-            this.Controls.Add(this.Działka2Txt);
             this.Controls.Add(this.Działka2Lb);
             this.Controls.Add(this.Działka1Txt);
             this.Controls.Add(this.Działka1Lb);
@@ -319,16 +381,20 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
         private System.Windows.Forms.Label Działki;
         private System.Windows.Forms.CheckBox Działka1Lb;
         private System.Windows.Forms.TextBox Działka1Txt;
-        private System.Windows.Forms.TextBox Działka2Txt;
         private System.Windows.Forms.CheckBox Działka2Lb;
-        private System.Windows.Forms.TextBox Działka3Txt;
         private System.Windows.Forms.CheckBox Działka3Lb;
-        private System.Windows.Forms.TextBox Działka4Txt;
         private System.Windows.Forms.CheckBox Działka4Lb;
         private System.Windows.Forms.RadioButton RozkazS;
         private System.Windows.Forms.RadioButton RozkazO;
         private System.Windows.Forms.RadioButton RozkazN;
         private System.Windows.Forms.TextBox NumerRozkazuTxt;
+        private System.Windows.Forms.TextBox Działka2Txt;
+        private System.Windows.Forms.TextBox Działka3Txt;
+        private System.Windows.Forms.TextBox Działka4Txt;
+        private System.Windows.Forms.Button Konfiguruj_działka1;
+        private System.Windows.Forms.Button Konfiguruj_działka2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

@@ -69,6 +69,10 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
 
         private void Rozkaz_SClick(object sender, EventArgs e)
         {
+            Działka1Txt.Clear();
+            Działka2Txt.Clear();
+            Działka3Txt.Clear();
+            Działka4Txt.Clear();
             wybór = "S";
             Działka1Txt.Text = "Zezwalam po otrzymaniu sygnału nakaz jazdy/tylko tego rozkazu pisemnego przyjechać obok wskazującego sygnał stój semafora wyjazdowego(uzupełnij).";
             Działka2Txt.Text = "Pominięcie sygnału Stój przy wjeździe/na semaforze odstępowym/wjazd z toru zamkniętego bez semafora.";
@@ -79,12 +83,20 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
 
         private void Rozkaz_OClick(object sender, EventArgs e)
         {
+            Działka1Txt.Clear();
+            Działka2Txt.Clear();
+            Działka3Txt.Clear();
+            Działka4Txt.Clear();
             wybór = "O";
             Wynik_txt(sender, e);
         }
 
         private void Rozkaz_NClick(object sender, EventArgs e)
         {
+            Działka1Txt.Clear();
+            Działka2Txt.Clear();
+            Działka3Txt.Clear();
+            Działka4Txt.Clear();
             wybór = "N";
             Wynik_txt(sender, e);
         }

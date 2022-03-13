@@ -111,7 +111,7 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             // 
             this.Wynik.AutoSize = true;
             this.Wynik.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Wynik.Location = new System.Drawing.Point(610, 148);
+            this.Wynik.Location = new System.Drawing.Point(610, 165);
             this.Wynik.Name = "Wynik";
             this.Wynik.Size = new System.Drawing.Size(55, 17);
             this.Wynik.TabIndex = 5;
@@ -141,7 +141,7 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             // 
             this.Działki.AutoSize = true;
             this.Działki.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Działki.Location = new System.Drawing.Point(277, 148);
+            this.Działki.Location = new System.Drawing.Point(277, 145);
             this.Działki.Name = "Działki";
             this.Działki.Size = new System.Drawing.Size(54, 17);
             this.Działki.TabIndex = 11;
@@ -251,7 +251,7 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             // Działka2Txt
             // 
             this.Działka2Txt.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Działka2Txt.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.Działka2Txt.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Działka2Txt.Location = new System.Drawing.Point(170, 278);
             this.Działka2Txt.Multiline = true;
             this.Działka2Txt.Name = "Działka2Txt";
@@ -262,7 +262,7 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             // Działka3Txt
             // 
             this.Działka3Txt.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Działka3Txt.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.Działka3Txt.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Działka3Txt.Location = new System.Drawing.Point(170, 362);
             this.Działka3Txt.Multiline = true;
             this.Działka3Txt.Name = "Działka3Txt";
@@ -273,7 +273,7 @@ namespace OGRP__Okienkowy_Generator_Rozkazów_Pisemnych
             // Działka4Txt
             // 
             this.Działka4Txt.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Działka4Txt.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.Działka4Txt.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Działka4Txt.Location = new System.Drawing.Point(170, 445);
             this.Działka4Txt.Multiline = true;
             this.Działka4Txt.Name = "Działka4Txt";
